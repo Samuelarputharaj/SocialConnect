@@ -1,0 +1,542 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.header-area{
+    position: relative;
+    background-color:white;
+    width: 100vw;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 10px ; */
+}
+
+/*profile pic*/
+.circle{
+    width:70px;
+    height: 70px;
+    /* background-color: greenyellow; */
+    border-radius: 50px;
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    background-image: url('./profile-pic/WhatsApp\ Image\ 2024-06-01\ at\ 8.31.04\ AM.jpeg');
+    background-size: cover;
+}
+.dpname{
+font-weight: bold;
+font-family: cursive;
+
+}
+.profile-about{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.post{
+    margin-top: 22px;
+}
+
+.post-count{
+    text-align: center;
+}
+
+.followers{
+    margin-top: 22px;
+}
+.followers-count{
+    text-align: center;
+}
+
+.following{
+    margin-top: 22px;
+}
+.following-count{
+    text-align: center;
+}
+
+.bio{
+    margin-left: 10px;
+    font-family: monospace;
+}
+
+/*edit profile,share profile*/
+.edit-share-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+   
+/*edit profile*/
+}
+.edit{
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(218, 214, 214);
+    border-radius: 8px;
+    margin-left: 8px;
+}
+
+/*share profile*/
+.share{
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    align-content: center;
+    background-color:rgb(218, 214, 214);
+    border-radius: 8px;
+}
+
+/*add btn*/
+.add{
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    align-content: center;    
+    background-color:rgb(218, 214, 214);
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+
+.high-lights{
+     display: flex;
+    justify-content: space-around; 
+    margin-top:15px;
+    text-align: center;
+   
+}
+
+.high-1{
+    width: 55px;
+    height: 55px;
+    /* border: 1px solid black; */
+    /* background-color: aqua; */
+    border-radius: 50px;
+    background-image:url('./highlight-pic/lifepart.jpeg');
+    background-size: cover;
+}
+
+.high-2{
+    width: 55px;
+    height: 55px;
+    /* border: 1px solid black; */
+    /* background-color: aqua; */
+    border-radius: 50px;
+    background-image:url('./highlight-pic/sis.jpeg');
+    background-size: cover;
+}
+
+.high-3{
+    width: 55px;
+    height: 55px;
+    /* border: 1px solid black; */
+    /* background-color: aqua; */
+    border-radius: 50px;
+    background-image:url('./highlight-pic/kutty.jpeg');
+    background-size: cover;
+}
+
+.high-4{
+    width: 55px;
+    height: 55px;
+    /* border: 1px solid black; */
+    /* background-color: aqua; */
+    border-radius: 50px;
+    background-image:url('./highlight-pic/quote.jpeg');
+    background-size: cover;
+}
+.high-5{
+     width: 55px;
+    height: 55px;
+    background-color: aqua;
+    border-radius: 50px;
+}
+
+
+
+.post-reels-tag{
+    display:flex;
+    justify-content: space-around;
+     /* border: 1px solid red; 
+     height: 25px; */
+     margin-top: 10px;
+    /* align-items: center;  */
+}
+
+
+#fa-table-cells{
+    /* border: 1px solid black; */
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    border-bottom: 2px solid black;
+}
+#fa-youtube{
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    /* border-bottom: 2px solid black; */
+}
+
+#fa-id-badge{
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    /* border-bottom: 2px solid black; */
+}
+
+/* ------------------------------------------------- */
+/* post area */
+.feed-post{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5px;
+    margin-bottom: 50px;
+}
+
+.box{
+    width: 110px;
+    height: 110px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+#box-1{
+    background-image: url('../public/insta-post/1.jpeg');
+    background-size: cover;
+}
+
+#box-2{
+    background-image: url('../public/insta-post/2.jpeg');
+    background-size: cover;
+}
+
+#box-3{
+    background-image: url('../public/insta-post/3.jpg');
+    background-size: cover;
+}
+
+#box-4{
+    background-image: url('../public/insta-post/4.jpeg');
+    background-size: cover;
+}
+
+#box-5{
+    background-image: url('../public/insta-post/5.jpeg');
+    background-size: cover;
+}
+
+#box-6{
+    background-image: url('../public/insta-post/6.jpg');
+    background-size: cover;
+}
+
+#box-7{
+    background-image: url('../public/insta-post/7.jpeg');
+    background-size: cover;
+}
+
+#box-8{
+    background-image: url('../public/insta-post/8.jpg');
+    background-size: cover;
+}
+
+#box-9{
+    background-image: url('../public/insta-post/9.jpeg');
+    background-size: cover;
+}
+
+#box-10{
+    background-image: url('../public/insta-post/10.jpg');
+    background-size: cover;
+}
+
+#box-11{
+    background-image: url('../public/insta-post/11.jpg');
+    background-size: cover;
+}
+
+#box-12{
+    background-image: url('../public/insta-post/12.jpg');
+    background-size: cover;
+}
+
+#box-13{
+    background-image: url('../public/insta-post/13.jpg');
+    background-size: cover;
+}
+
+#box-14{
+    background-image: url('../public/insta-post/14.jpg');
+    background-size: cover;
+}
+
+#box-15{
+    background-image: url('../public/insta-post/15.jpg');
+    background-size: cover;
+}
+
+#box-16{
+    background-image: url('../public/insta-post/16.jpg');
+    background-size: cover;
+}
+
+#box-17{
+    background-image: url('../public/insta-post/17.jpg');
+    background-size: cover;
+}
+
+#box-18{
+    background-image: url('../public/insta-post/18.jpg');
+    background-size: cover;
+}
+
+#box-19{
+    background-image: url('../public/insta-post/19.jpg');
+    background-size: cover;
+}
+
+#box-20{
+    background-image: url('../public/insta-post/20.jpg');
+    background-size: cover;
+}
+
+#box-21{
+    background-image: url('../public/insta-post/21.jpeg');
+    background-size: cover;
+}
+
+#box-22{
+    background-image: url('../public/insta-post/22.jpg');
+    background-size: cover;
+}
+
+#box-23{
+    background-image: url('../public/insta-post/23.jpg');
+    background-size: cover;
+}
+
+#box-24{
+    background-image: url('../public/insta-post/24.jpg');
+    background-size: cover;
+}
+
+#box-25{
+    background-image: url('../public/insta-post/25.jpg');
+    background-size: cover;
+}
+
+#box-26{
+    background-image: url('../public/insta-post/26.jpg');
+    background-size: cover;
+}
+
+#box-27{
+    background-image: url('../public/insta-post/27.jpg');
+    background-size: cover;
+}
+
+#box-28{
+    background-image: url('../public/insta-post/28.jpg');
+    background-size: cover;
+}
+
+#box-29{
+    background-image: url('../public/insta-post/29.jpg');
+    background-size: cover;
+}
+
+#box-30{
+    background-image: url('../public/insta-post/30.jpg');
+    background-size: cover;
+}
+
+#box-31{
+    background-image: url('../public/insta-post/31.jpg');
+    background-size: cover;
+}
+
+#box-32{
+    background-image: url('../public/insta-post/32.jpg');
+    background-size: cover;
+}
+
+#box-33{
+    background-image: url('../public/insta-post/33.jpg');
+    background-size: cover;
+}
+
+#box-34{
+    background-image: url('../public/insta-post/34.jpg');
+    background-size: cover;
+}
+
+#box-35{
+    background-image: url('../public/insta-post/35.jpg');
+    background-size: cover;
+}
+
+#box-36{
+    background-image: url('../public/insta-post/36.jpg');
+    background-size: cover;
+}
+
+#box-37{
+    background-image: url('../public/insta-post/37.jpg');
+    background-size: cover;
+}
+
+#box-38{
+    background-image: url('../public/insta-post/38.jpg');
+    background-size: cover;
+}
+
+#box-39{
+    background-image: url('../public/insta-post/39.jpg');
+    background-size: cover;
+}
+
+#box-40{
+    background-image: url('../public/insta-post/40.jpg');
+    background-size: cover;
+}
+
+#box-41{
+    background-image: url('../public/insta-post/41.jpg');
+    background-size: cover;
+}
+
+#box-42{
+    background-image: url('../public/insta-post/42.jpeg');
+    background-size: cover;
+}
+
+#box-43{
+    background-image: url('../public/insta-post/43.jpg');
+    background-size: cover;
+}
+
+#box-44{
+    background-image: url('../public/insta-post/44.jpg');
+    background-size: cover;
+}
+#box-45{
+    background-image: url('../public/insta-post/45.jpeg');
+    background-size:cover;
+}
+
+#box-46{
+    background-image: url('../public/insta-post/46.jpg');
+    background-size: cover;
+}
+
+#box-47{
+    background-image: url('../public/insta-post/bike.jpg');
+    background-size: cover;
+}
+
+#box-48{
+    background-image: url('../public/insta-post/48.jpg');
+    background-size: cover;
+}
+
+#box-49{
+    background-image: url('../public/insta-post/49.jpg');
+    background-size: cover;
+}
+
+#box-50{
+    background-image: url('../public/insta-post/50.jpg');
+    background-size: cover;
+}
+
+#box-51{
+    background-image: url('../public/insta-post/51.jpg');
+    background-size: cover;
+}
+
+#box-52{
+    background-image: url('../public/insta-post/52.jpg');
+    background-size: cover;
+}
+
+#box-53{
+    background-image: url('../public/insta-post/53.jpg');
+    background-size: cover;
+}
+
+
+
+#box-54{
+    background-image: url('../public/insta-post/54.jpg');
+    background-size: cover;
+}
+
+#box-55{
+    background-image: url('../public/insta-post/55.jpg');
+    background-size: cover;
+}
+
+#box-56{
+    background-image: url('../public/insta-post/56.jpg');
+    background-size: cover;
+}
+
+#box-57{
+    background-image: url('../public/insta-post/57.jpg');
+    background-size: cover;
+}
+
+#box-58{
+    background-image: url('../public/insta-post/58.jpg');
+    background-size: cover;
+}
+
+#box-59{
+    background-image: url('../public/insta-post/59.jpg');
+    background-size: cover;
+}
+
+#box-60{
+    background-image: url('../public/insta-post/60.jpg');
+    background-size: cover;
+}
+
+
+
+/* --------------------------------------------------------------- */
+/* footer area */
+footer{
+    position: fixed;
+    bottom: 0px;
+}
+.footer-area{
+    
+    background-color:white;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.smallcircle{
+    width: 30px;
+    height: 30px;
+    background-color: greenyellow;
+    border-radius: 30px;
+    background-image: url('./profile-pic/WhatsApp\ Image\ 2024-06-01\ at\ 8.31.04\ AM.jpeg');
+    background-size: cover;
+}
+
+
+
+

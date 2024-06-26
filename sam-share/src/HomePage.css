@@ -1,0 +1,313 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin:0px;
+}
+
+#container{
+    position: relative;
+    /* background-color:aqua; */
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* padding: 10px ; */
+}
+
+.logo img{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.fa-heart{
+    margin-left: 170px;
+}
+
+.fa-facebook-messenger{
+    margin-right: 15px;
+}
+
+
+.circle1{
+    width: 75px;
+    height: 75px;
+    /* background-color: greenyellow; */
+    border-radius: 50px;
+    margin-top: 15px;
+    margin: 10px;
+    background-image:url('./story-pic/WhatsApp\ Image\ 2024-06-01\ at\ 8.31.04\ AM.jpeg');
+    background-size: cover;
+}
+
+.circle2{
+    width: 75px;
+    height: 75px;
+    /* background-color: greenyellow; */
+    border-radius: 50px;
+    margin-top: 15px;
+    margin: 10px;
+    background-image:url('./story-pic/story-2.jpg');
+    background-size: cover;
+}
+
+.circle3{
+    width: 75px;
+    height: 75px;
+    /* background-color: greenyellow; */
+    border-radius: 50px;
+    margin-top: 15px;
+    margin: 10px;
+    background-image:url('./story-pic/story-3.jpg');
+    background-size: cover;
+}
+
+.circle4{
+    width: 75px;
+    height: 75px;
+    /* background-color: greenyellow; */
+    border-radius: 50px;
+    margin-top: 15px;
+    margin: 10px;
+    background-image:url('./story-pic/story-4.webp');
+    background-size: cover;
+}
+
+/* story bottom text align */
+#story1{
+    margin-top: 80px;
+}
+#story2{
+    margin-top: 80px;
+    margin-left: 0px;
+}
+#story3{
+    margin-top: 80px;
+    margin-left: 0px;
+}
+#story4{
+    margin-top: 80px;
+    margin-left: 25px;
+}
+
+
+.storyarea{
+    display: flex;
+}
+
+
+
+/* post image reels page */
+.profile{
+    display: flex;
+    margin-top: 33px;
+    justify-content: space-between;
+    margin-left: 15px;
+    align-items: center;
+    margin-right: 17px;
+    height: 50px;
+}
+
+
+/* other insta  profile id 1*/
+.profilemy{
+    width:35px;
+    height: 35px;
+    border-radius: 50px;
+    background-image: url('./profile-pic/WhatsApp\ Image\ 2024-06-01\ at\ 8.31.04\ AM.jpeg');
+    background-size: cover;
+}
+
+.status-box{
+    width: 355px;
+    height: 650px;
+    border: 1px solid black;
+    margin: 9px;
+}
+
+/* profile box 1 */
+#box1{
+    background-image:url('./other-insta-post/pic1.jpg');
+    background-size: cover;
+}
+
+.img-icons{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+#heart{
+    margin-left: 15px;
+}
+#comment{
+    margin-left: 15px;
+}
+#share{
+    margin-left: 15px;
+}
+#bookmark{
+    margin-left: 250px;
+}
+
+
+/* other insta  profile id 2 */
+.nature{
+    width:35px;
+    height: 35px;
+    border-radius: 50px;
+    background-image: url('./profile-pic/profile2.jpg');
+    background-size: cover;
+}
+#box2{
+    background-image: url('./other-insta-post/pic2.jpg');
+    background-size: cover;
+    margin-top: 10px;
+}
+
+
+/* other insta  profile id 3 */
+.sun{
+    width:35px;
+    height: 35px;
+    /* background-color: greenyellow; */
+    border-radius: 50px;
+    background-image: url('./profile-pic/profile3.jpeg');
+    background-size: cover;
+}
+
+#box3{
+    background-image: url('./other-insta-post/pic3.jpg');
+    background-size: cover;
+}
+
+
+/* other insta  profile id 4 */
+.mobile{
+    width:35px;
+    height: 35px;
+    background-image: url('./profile-pic/profile4.jpg');
+    background-size: cover;
+    border-radius: 50px;
+}
+#box4{
+    background-image: url('./other-insta-post/pic4.jpg');
+    background-size: cover;
+}
+
+
+/* other insta  profile id 5 */
+.malavika{
+    width:35px;
+    height: 35px;
+    border-radius: 50px;
+    background-image: url('./profile-pic/profile5.jpg');
+    background-size: cover;
+}
+#box5{
+    background-image: url('./other-insta-post/pic5.jpg');
+    background-size: cover;
+}
+
+/* other insta  profile id 6 */
+.betta{
+    width:35px;
+    height: 35px;
+    border-radius: 50px;
+    background-image: url('./profile-pic/profile6.png');
+    background-size: cover;
+}
+
+#box6{
+    background-image: url('./other-insta-post/pic6.jpg');
+    background-size: cover;
+}
+
+
+/* other insta  profile id 7 */
+.fullmoon{
+    width:35px;
+    height: 35px;
+    border-radius: 50px;
+    background-image: url('./profile-pic/profile7.jpg');
+    background-size: cover;
+}
+
+#box7{
+    background-image: url('./other-insta-post/pic7.png');
+    background-size: cover;
+}
+.flower{
+    width:35px;
+    height: 35px;
+    border-radius: 50px;
+    background-image: url('./profile-pic/profile8.jpg');
+    background-size: cover;
+}
+
+
+#box8{
+    background-image: url('./other-insta-post/pic8.jpg');
+    background-size: cover;
+}
+.rose{
+    width:35px;
+    height: 35px;
+    border-radius: 50px;
+    background-image: url('./profile-pic/profile9.jpg');
+    background-size: cover;
+}
+#box9{
+    background-image: url('./other-insta-post/pic9.jpg');
+    background-size: cover;
+}
+
+
+
+/* other insta  profile id 10 */
+.car{
+    width:35px;
+    height: 35px;
+    border-radius: 50px;
+    background-image: url('./profile-pic/profile10.jpg');
+    background-size: cover;
+}
+
+#box10{
+    background-image: url('./other-insta-post/pic10.jpg');
+    background-size: cover;
+}
+
+
+
+
+footer{
+    position: fixed;
+    bottom: 0px;
+}
+.footer-area{
+    
+    background-color:white;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color: black;
+}
+
+.smallcircle{
+    width: 30px;
+    height: 30px;
+    /* background-color: greenyellow; */
+    border-radius: 30px;
+    background-image: url('./profile-pic/WhatsApp\ Image\ 2024-06-01\ at\ 8.31.04\ AM.jpeg');
+    background-size: cover;
+}
+
+
+article{
+    margin-bottom: 60px;
+}

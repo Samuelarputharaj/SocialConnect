@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+}
+
+.header-area{
+
+    /* background-color:aqua; */
+    width: 100vw;
+    height: 50px;
+    border-bottom: 1px solid rgb(201, 193, 193);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.fa-arrow-left{
+    margin-left: 15px;
+}
+
+.id-name{
+    margin-left: 20px;
+}
+
+.fa-pen-to-square{
+    margin-left: 180px;
+}
+
+/* searchbox area */
+.search{
+    border: 1px solid rgb(199, 199, 195);
+    width: 350px;
+    height: 30px;
+    background-color: rgb(199, 199, 195);
+    border-radius: 10px;
+}
+.search-box{
+    margin-left: 10px;
+    margin-top: 7px;
+    
+}
+
+
+
+
+.mes-circle1{
+    width: 75px;
+    height: 75px;
+    /* background-color: greenyellow; */
+    border-radius: 50px;
+    margin-top: 15px;
+    margin: 10px;
+    background-image:url('./msgstorypic/WhatsApp\ Image\ 2024-06-01\ at\ 8.31.04\ AM.jpeg');
+    background-size: cover;
+}
+
+.mes-circle2{
+    width: 75px;
+    height: 75px;
+    /* background-color: greenyellow; */
+    border-radius: 50px;
+    margin-top: 15px;
+    margin: 10px;
+    background-image:url('./msgstorypic/fortuner2.webp');
+    background-size: cover;
+}
+
+.mes-circle3{
+    width: 75px;
+    height: 75px;
+    /* background-color: greenyellow; */
+    border-radius: 50px;
+    margin-top: 15px;
+    margin: 10px;
+    background-image:url('./msgstorypic/crysta3.webp');
+    background-size: cover;
+}
+
+.mes-circle4{
+    width: 75px;
+    height: 75px;
+    /* background-color: greenyellow; */
+    border-radius: 50px;
+    margin-top: 15px;
+    margin: 10px;
+    background-image:url('./msgstorypic/scorbio4.webp');
+    background-size: cover;
+}
+
+
+/* story bottom text align */
+#story1{
+    margin-top: 80px;
+}
+#story2{
+    margin-top: 80px;
+    margin-left: 12px;
+}
+#story3{
+    margin-top: 80px;
+    margin-left: 15px;
+}
+#story4{
+    margin-top: 80px;
+    margin-left: 14px;
+}
+
+
+.storyarea{
+    display: flex;
+}
+
+
+/* message & request text area */
+.sentence{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.msg{
+    margin-left: 15px;
+
+}
+
+.req{
+    margin-right: 15px;
+    color: rgb(11, 150, 243);
+
+}
